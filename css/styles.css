@@ -146,7 +146,7 @@ color: #212121;
 .our-team-nume {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -154,7 +154,7 @@ color: #212121;
 
 .our-team-job {
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
@@ -174,7 +174,7 @@ background: #2F303A;
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
@@ -187,24 +187,66 @@ color: #2196F3;
 }
 
 .footer-addres {
+font-style: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
 .footer-addres-link {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-addres-link:hover,
-.footer-addres-link:focus 
-{
+.footer-addres-link:focus {
     color: white;
 }
 /* ============== END FOOTER ============== */
+
+/* ============== PORTFOLIO ============== */
+.button-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.button-item:hover,
+.button-item:focus{
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.button-item.current {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.project-nume {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.project-specification {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ============== END PORTFOLIO ============== */
+
+
 
